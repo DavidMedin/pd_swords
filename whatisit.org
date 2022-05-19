@@ -1,0 +1,57 @@
+#+title: What is this?
+#+author: David Medin
+#+date: May 11, 2022
+
+* Sketch of what this is.
+
+ * This could be a 'souls-like', where you swing a sword back and
+   forth.
+ * This could be a card game, where combat is through cards.
+ * I want this to be a skill game, where you have blocking, parrying,
+   and attacking.
+ * It could be a top down game, where the crank turns your direction.
+   The dpad moves you relative to your facing direction, and the A and
+   B button could be for whatever.
+ * What if it was a magic game? You collect spells in your
+   spellbook. Perhaps you perform spells with the crank by pressing A
+   at particular places on the crank-cycle in a particular order to
+   cast spells.
+ * I will do this all. The first thing is melee though. I am
+   considering an angled POV, but then there is some fun matrix math
+   to be had. IT is either that or totally top down. I think that the
+   top of the screen is going to be the farthest from the player, and
+   all the sprites over  there will be scaled appropriately. 
+ * It would certainly be very cool if there was perspective of the
+   trees, although it would be kinda hard to see and understand them.
+ * scratch all of that, this is a 100% top down zelda soulslike. Swing
+   your sword with momentum of the crank and go ham.
+
+* Progress [21%]
+** DONE Make sprite for character
+*** DONE put it in the middle of the screen
+** DONE Make sword w/ component
+** DONE Transform parenting
+** DONE Make sword rotate 'round player w/ crank
+** DONE Make enemy guy
+** TODO Create collision box for sword
+** TODO Deal damage with sword
+** TODO Make enemy walk towards player
+** TODO Make wall sprites (godot game?)
+** TODO Make room geometry
+*** Can do this with tiles.
+** TODO Do room generation
+** TODO Make enemies randomly spawn in rooms
+** TODO Create an item on the ground
+** TODO Pick it up
+** TODO Create inventory that holds items
+** TODO Make a few meaningful items
+** TODO Be able to die from enemies
+** TODO Make a couple more kinds of enemies.
+** TODO Blocking attacks
+** TODO Parry attacks ??
+*** Don't know if this should be a thing
+** TODO Magic!
+*** Either spell book or scrolls. Whatever
+** TODO You cannot handle my finest potions!
+** TODO Escape hatch to next level!
+*** A bit cliche, but easy for now. Maybe something better later.
