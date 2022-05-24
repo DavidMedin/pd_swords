@@ -16,7 +16,7 @@ SDK = ${PLAYDATE_SDK_PATH}
 SRC = main.c
 
 # List all user directories here
-UINCDIR = 
+UINCDIR = /usr/lib/arm-none-eabi/include
 
 # List user asm files
 UASRC = 
@@ -28,7 +28,7 @@ UDEFS =
 UADEFS = 
 
 # List the user directory to look for the libraries here
-ULIBDIR =
+ULIBDIR = 
 
 # List all user libraries here
 ULIBS =

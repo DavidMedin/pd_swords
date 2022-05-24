@@ -1,15 +1,15 @@
 class("thug", -- Has a knife
       {
 }).extends(component)
-function thug:init(entity)
-   thug.super.init(self,entity)
-end
-function thug:draw()
-   local trans = self.entity.transform
-   gfx.drawCircleAtPoint(self.entity.transform.v,5)
-   gfx.drawLine(trans.v.x - 5 * 0.707, trans.v.y - 5*0.707,
-		trans.v.x+5*0.707,trans.v.y+5*0.707)
-end
+-- function thug:init(entity)
+--    -- thug.super.init(self,entity)
+-- end
+-- function thug:draw()
+--    local trans = self.entity.transform
+--    gfx.drawCircleAtPoint(self.entity.transform.v,5)
+--    gfx.drawLine(trans.v.x - 5 * 0.707, trans.v.y - 5*0.707,
+-- 		trans.v.x+5*0.707,trans.v.y+5*0.707)
+-- end
 
 -- Is an AI component
 class("hostile", -- Doesn't like you

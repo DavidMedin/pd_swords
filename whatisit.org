@@ -34,6 +34,7 @@
 ** DONE Make sword rotate 'round player w/ crank
 ** DONE Make enemy guy
 ** TODO Create collision box for sword
+* TODO fix mutlibple of 90 degree sword bug
 ** TODO Deal damage with sword
 ** TODO Make enemy walk towards player
 ** TODO Make wall sprites (godot game?)
